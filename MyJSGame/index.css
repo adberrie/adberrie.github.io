@@ -1,0 +1,123 @@
+body {
+
+    background-color: rgba(40, 5, 10, 1);
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.header {
+
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+#moneyLabel {
+
+    font-size: x-large;
+
+}
+
+
+
+#canvas {
+
+    width: 95%;
+    background-color: black;
+
+}
+
+.middle {
+
+    text-align: center;
+
+}
+
+.top {
+
+    margin: auto;
+    text-align: center;
+
+}
+
+.topButton {
+
+    text-align: center;
+    display:inline-block;
+    margin-bottom: 20px;
+    float: none;
+    width: 20%;
+
+}
+
+button {
+
+    font-family: 'Courier New', Courier, monospace;
+    border: 3px solid black;
+    background-color: rgba(150, 60, 70, 1);
+    border-radius: 0px;
+    display: block;
+    margin-bottom: 5px;
+    font-size: large;
+    float: right;
+    width: 100%;
+
+}
+
+button:hover {
+
+    background-color: rgba(100, 30, 40, 1);
+
+}
+
+.plantButton {
+
+    width: 100%;
+    margin-bottom: 1px;
+
+}
+
+.plantButton:disabled {
+
+    background-color: rgba(150, 60, 70, 0.8);
+
+}
+
+.organAmount {
+
+    font-size: large;
+    margin-bottom: 2px;
+
+}
+
+.middleLeft {
+    
+    float: left;
+    width: 15%;
+
+}
+
+.middleMiddle {
+
+    float: left;
+    text-align: center;
+    width: 70%;
+    display: block;
+
+}
+
+.middleRight {
+
+    float: right;
+    width: 15%;
+
+}
+
+.bottom {
+
+    width: 100%;
+    text-align: center;
+    float: left;
+
+}
