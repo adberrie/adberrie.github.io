@@ -1,0 +1,133 @@
+body {
+
+    background-color: rgba(25, 20, 20, 255);
+    color: whitesmoke;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.mainContainer {
+
+    background-color: rgba(75, 70, 70, 255);
+    margin: auto;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 25px;
+    text-align: center;
+    text-wrap: balance;
+
+}
+
+.half {
+
+    width: 45%;
+    text-align: left;
+    padding: 10px;
+    float: left;
+
+}
+
+.aboutMeImg {
+
+    border-radius: 5px;
+    border-color: rgba(25, 20, 20, 255);
+    border-style: solid;
+    border-width: 4px;
+    width: 45%;
+
+}
+
+.buttonRow {
+
+    text-align: center;
+    padding: 20px;
+    text-wrap:balance;
+    width:auto;
+    height: 100%;
+
+}
+
+.navBar {
+
+    overflow: hidden;
+    background-color: rgba(75, 70, 70, 255);
+
+}
+
+.navBar a {
+
+    padding: 15px;
+    color: whitesmoke;
+    text-decoration: none;
+    float: left;
+
+}
+
+video {
+
+    width: 90%;
+
+}
+
+.navBar a.active {
+
+    background-color:rgb(165, 101, 202);
+    color: black;
+
+}
+
+hr {
+
+    width: 90%;
+
+}
+
+.navBar a:hover {
+
+    background-color:rgb(165, 101, 202);
+    color: black;
+    text-decoration: underline;
+
+}
+
+.header {
+
+    margin: auto;
+    background-color: rgba(75, 70, 70, 255);
+    width: 60%;
+    text-align: center;
+    border-radius: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.button {
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    padding: 13px;
+    background-color: rgb(165, 101, 202);
+    border-radius: 7px;
+    text-decoration: none;
+    color: black;
+    text-wrap: nowrap;
+    float:none;
+    display:inline-block;
+
+}
+
+.button:hover {
+
+    box-shadow: 2px 3px  midnightblue;
+}
+
+.regLink {
+
+    color:dodgerblue;
+
+}
